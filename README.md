@@ -41,3 +41,7 @@ Disclaimer
 ----------
 Besides the usual disclaimer in the license, we want to specifically emphasize that the authors, and any organizations the authors are associated with, can not be held responsible for data-loss caused by possible malfunctions of Lsyncd.
 
+compile method
+---------------
+cmake -DCMAKE_INSTALL_PREFIX=/usr/local/lsyncd-2.1.5
+make && make install
